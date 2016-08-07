@@ -3,10 +3,18 @@
 -r base.txt
 
 {% if cookiecutter.windows == 'y' -%}
+# Unsure if the following is alright to put here with Windows
+# Python-MySQL Database Adapter
+# Django Database Options & Recs - http://bit.ly/2b5Lt1G
+mysqlclient==1.3.7
+#MySQL-python==1.2.5
+#PyMySQL==0.7.4
+
+## Original Cookiecutter w/ PostgreSQL
 # Python-PostgreSQL Database Adapter
 # If using Win for dev, this assumes Unix in prod
 # ------------------------------------------------
-psycopg2==2.6.2
+#psycopg2==2.6.2
 {%- endif %}
 
 # WSGI Handler
