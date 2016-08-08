@@ -37,9 +37,9 @@ django-allauth==0.26.1
 {% else %}
 # Python-MySQL Database Adapter
 # Django Database Options & Recs - http://bit.ly/2b5Lt1G
-mysqlclient==1.3.7
-#MySQL-python==1.2.5
-#PyMySQL==0.7.4
+#mysqlclient==1.3.7
+MySQL-python==1.2.5
+PyMySQL==0.7.4
 {%- endif %}
 
 # Unicode slugification
